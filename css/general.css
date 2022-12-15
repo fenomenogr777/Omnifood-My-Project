@@ -1,0 +1,108 @@
+/* 
+--- 01 TYPOGRAPHY ---
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+-FONT WEIGHTS:
+
+-LINE HEIGHTS:
+
+-FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+--- 02 COLORS ---
+-PRIMARY 
+#20c997
+
+-TINTS 
+#d2f4ea
+
+-SHADES
+ #1aa179
+
+-ACCENTS
+
+-GRAY 
+
+--- SHADOWS ---
+
+
+
+--- BORDER-RADIUS---
+
+
+
+---WHITESPACE----
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+section-9.6
+
+
+*/
+/******************************/
+/* GENERAL */
+/******************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: "rubik" ,sans-serif;
+}
+
+body {
+  font-size: 10rem;
+  line-height: 1;
+color: #333;
+}
+
+.container {
+  max-width: 130rem;
+  padding:0 3.2rem;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid{
+  display: grid;
+}
+
+.grid--2-cols {
+  grid-template-columns: 1fr 1fr;
+}
+
+.padding--bot-small{
+  padding-bottom: 4.8rem;
+}
+
+
+.btn:link,.btn:visited{
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 2rem 4rem;
+  background-color: #20c997;
+  border-radius: 9px;
+  color: #fff;
+  transition: all 0.3s;
+} 
+
+.btn:hover,.btn:active{
+  background-color: #1aa179;
+}
+
+.first-heading {
+  display: inline-block;
+color:  #1aa179;
+font-size: 1.8rem;
+text-transform: uppercase;
+font-weight: 700;
+padding:10rem 0 1rem 0;
+}
+
+.second-heading{
+font-size: 3rem;
+font-weight: 500;
+}
