@@ -81,6 +81,10 @@ box-sizing: border-box;
   grid-template-columns: repeat(3,1fr)
 }
 
+.grid--4-cols {
+  grid-template-columns: repeat(4,1fr)
+}
+
 .padding--bot-small{
   padding-bottom: 4.8rem;
 }
@@ -91,6 +95,7 @@ box-sizing: border-box;
 .margin--bottom-md {
   margin-bottom: 8rem;
 }
+
 
 .btn:link,.btn:visited{
   display: inline-block;
@@ -107,6 +112,7 @@ box-sizing: border-box;
 .btn:hover,.btn:active{
   background-color: #1aa179;
 }
+
 
 .first-heading {
   display: inline-block;

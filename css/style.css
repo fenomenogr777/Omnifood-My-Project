@@ -184,8 +184,8 @@
 /******************************/
 .meal-section {
   padding: 9.6rem 0;
-  color:#333;
-  border-top:1px solid #d2f4ea;
+  color: #333;
+  border-top: 1px solid #d2f4ea;
 }
 
 .meal-title {
@@ -195,71 +195,68 @@
 .meal-box-all {
   gap: 6.4rem;
 }
-.meal-box{
-box-shadow: 0 1.2rem 2.4rem rgba(0, 0, 0, 0.158);
-border-radius: 11px;
-transition: all 0.4s;
+.meal-box {
+  box-shadow: 0 1.2rem 2.4rem rgba(0, 0, 0, 0.158);
+  border-radius: 11px;
+  transition: all 0.4s;
 }
 
 .meal-box:hover {
-transform: translateY(-1.3rem);
+  transform: translateY(-1.3rem);
 }
 
-.meal-img{
+.meal-img {
   display: inline-block;
-width: 100%;
-border-top-left-radius: 11px;
-border-top-right-radius: 11px;
+  width: 100%;
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
 }
 
 .meal-type {
-background-color: #51cf66;
-border-radius: 9px;
-margin-left: 1rem;
-text-transform:uppercase;
-display: inline-block;
-font-weight: 500;
-padding: 0.6rem;
-color: #fff;
+  background-color: #51cf66;
+  border-radius: 9px;
+  margin-left: 1rem;
+  text-transform: uppercase;
+  display: inline-block;
+  font-weight: 500;
+  padding: 0.6rem;
+  color: #fff;
 }
 
 .meal-texts {
   padding: 3rem;
 }
 .meal-name {
-font-size: 3rem;
+  font-size: 3rem;
 }
 
-.meal-attributes{
-font-size: 3rem;
-list-style: none;
-gap: 2rem;
+.meal-attributes {
+  font-size: 3rem;
+  list-style: none;
+  gap: 2rem;
 }
 
 .diet-icon {
   height: 4.8rem;
   width: 4.8rem;
   color: #1aa179;
-
 }
 
 .meal-attributes span {
   font-size: inherit;
   font-weight: 600;
-
 }
 
 .diet-list {
   list-style: none;
-  font-size: 5.2rem;}
-
-.diet-list li {
-display: flex;
-align-items: center;
-gap: 2rem;
+  font-size: 5.2rem;
 }
 
-
+.diet-list li {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
 
 .diet-title {
   font-size: 3.6rem;
@@ -282,9 +279,8 @@ gap: 2rem;
   gap: 6rem;
 }
 
-.testi-box{
+.testi-box {
   padding: 8rem;
-
 }
 .testi-title {
   text-align: left;
@@ -294,18 +290,17 @@ gap: 2rem;
   width: 7.4rem;
 }
 
-.customer-text{
+.customer-text {
   font-size: 2rem;
   line-height: 1.5;
 }
-.customer-name{
+.customer-name {
   font-size: 1.8rem;
 }
 
 .image-gallery {
   gap: 2rem;
   padding: 2rem;
-
 }
 
 .image-gallery figure {
@@ -316,11 +311,10 @@ gap: 2rem;
   width: 100%;
   display: block;
   transition: all 0.3s;
-
 }
 
 .gallery-img:hover {
-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 /******************************/
@@ -329,76 +323,205 @@ transform: scale(1.1);
 .pricing-plans {
   display: grid;
   grid-template-columns: 1fr 1fr;
- gap: 6rem;
+  gap: 6rem;
 }
 
-
-
-
-
 .pricing-box-1 {
-  background-color: #1aa179;
-/* text-align: center; */
-justify-self: end;
-display: flex;
-flex-direction: column;
-gap: 3rem;
-padding: 3rem 2.4rem;
-border-radius: 11px;
-text-align: center;
+  box-shadow: 0 1.2rem 2.4rem hsla(162, 72%, 37%, 0.301);
+  justify-self: end;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 4.8rem 3.2rem;
+  border-radius: 11px;
+  text-align: center;
+  background-color: #ffffff;
+  border: 2px solid #e9faf5;
 }
 
 .pricing-box-2 {
-background-color: #a6e9d5;
-justify-self: start;
-display: flex;
-flex-direction: column;
-gap: 3rem;
-padding: 3rem 2.4rem;
-border-radius: 11px;
+  box-shadow: 0 1.2rem 2.4rem hsla(162, 72%, 37%, 0.301);
+  justify-self: start;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 4.8rem 3.2rem;
+  border-radius: 11px;
+  background-color: #d2f4ea;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+.pricing-box-2:after {
+  content: "sale";
+  color: rgb(255, 255, 255);
+  background-color: #ff6b6b;
+  position: absolute;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.6rem;
+  padding: 0.8rem 8rem;
+  right: -5rem;
+  top: 3.5rem;
+  transform: rotate(45deg);
 }
 
 .pricing-plan {
   font-size: 3rem;
   text-transform: uppercase;
   font-weight: 500;
+  margin-bottom: 2.4rem;
 }
 .pricing-price {
-   font-size: 3.6rem;
-   font-weight: 600;   
+  font-size: 3.6rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
 }
 .pricing-per-day {
   font-size: 2rem;
 }
 
-
 .pricing-list {
-display: flex;
-flex-direction: column;
-
-align-items: flex-start;
-
-gap: 2.4rem;
-list-style: none;
-font-size: 2.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2.4rem;
+  list-style: none;
+  font-size: 2.4rem;
 }
 
 .pricing-list li {
   font-size: 2.4rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
-.test {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+.testi-title {
+  text-align: center;
+}
+
+.pricing-list .diet-icon {
+  align-self: end;
+}
+
+.pricing-detail {
+  font-size: 1.6rem;
+  text-align: center;
+  margin-top: 3.5rem;
+}
+
+.features-icon {
+  width: 3rem;
+  height: 3rem;
+  color: #20c997;
+  background-color: #e9faf5;
+  padding: 1.6rem;
+  border-radius: 50%;
+  margin-bottom: 3.2rem;
+}
+
+.features-title {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.features-text {
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+.features {
+  margin-top: 8.6rem;
+  gap: 4.8rem;
+}
+
+.features-box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+/******************************/
+/* CTA */
+/******************************/
+
+.cta-box-all {
+  color:#03140f;
   background-color: #1aa179;
-  padding: 10rem;
-  
+  grid-template-columns: 2fr 1fr;
+  border-radius: 11px;
+  overflow: hidden;
+}
+.cta-img {
+  width: 100%;
+  height: 100%;
 }
 
-.test2  {
-  color: #fff;
-  background-color: #333;
-  grid-column: 3/4;
-  grid-row: -2/-3;
+.cta-title {
+  font-size: 4.4rem;
+  letter-spacing: 0.1rem;
+}
+
+.cta-text {
+  font-size: 2rem;
+  line-height: 1.5;
+  color: inherit;
+}
+
+label {
+  display: inline-block;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  color: #03140f;
+}
+
+input {
+  font-size: 2rem;
+  width: 100%;
+  border-radius: 11px;
+  padding: 1rem;
+}
+select {
+  font-size: 2rem;
+  width: 100%;
+  border-radius: 11px;
+  padding: 1rem;
+  color: #03140f;
+  font-family: 'rubik'
+;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  color: #f7faf9;
+}
+
+.cta-form-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  padding: 8rem;
+}
+
+.form-box {
+  display: grid;
+  grid-template-rows: 1fr;
+}
+
+.btn-form {
+  font-size: 2rem;
+  border: 1px solid transparent;
+  border: none;
+  display: inline-block;
+  padding: 1rem;
+  width: 100%;
+  border-radius: 11px;
+  align-self: end;
+  justify-self: end;
 }
