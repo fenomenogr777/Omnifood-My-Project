@@ -107,12 +107,17 @@
     row-gap: 10rem;
   }
 
+  .meal-section {
+    padding: 9.6rem 6rem;
+  }
   .meal-box-all {
     grid-template-columns: 1fr;
   }
-
+.meal-type {
+  font-size: 2rem;
+}
   .meal-texts p {
-    font-size: 7rem;
+    font-size: 5rem;
   }
   .meal-texts ul {
     font-size: 8rem;
