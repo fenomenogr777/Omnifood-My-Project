@@ -53,3 +53,70 @@
     gap: 4rem;
   }
 }
+
+@media (max-width: 26em) {
+  * {
+    font-size: 35%;
+  }
+  .header-nav-list {
+    gap: 2rem;
+  }
+
+  .header {
+    padding-top: 3rem;
+  }
+
+  .hero {
+    padding-top: 6rem;
+  }
+  .hero-img-box {
+    margin-top: 6rem;
+  }
+  .hero-section {
+    display: inline-block;
+    padding: 1rem 3rem 2rem 3rem;
+  }
+
+  .how-box {
+    row-gap: 10rem;
+  }
+
+  .meal-box-all {
+    grid-template-columns: 1fr;
+  }
+
+  .meal-texts p {
+    font-size: 7rem;
+  }
+  .meal-texts ul {
+    font-size: 8rem;
+  }
+
+  .diet-box ul {
+    font-size: 9rem;
+  }
+  .meal-box:hover {
+    transform: none;
+  }
+
+  .testi-section {
+    grid-template-columns: 1fr;
+  }
+
+  .image-gallery {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .testi-box {
+    padding: 4rem;
+  }
+
+  .cta-box-all {
+    grid-template-columns: 1fr;
+  }
+  .cta-img {
+    display: none;
+  }
+  .cta-form-box {
+    padding: 4rem;
+  }
+}
