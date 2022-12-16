@@ -23,7 +23,7 @@
 .header-nav-list {
   list-style: none;
   display: flex;
-  gap: 6.4rem;
+  gap: 4.8rem;
 }
 
 .header-nav-list a:link,
@@ -39,7 +39,7 @@
 .header-nav-list a:active {
   display: inline-block;
   text-decoration: none;
-  font-size: 1.8rem;
+  font-size: 2rem;
   color: #1aa179;
   font-weight: 500;
 }
@@ -134,7 +134,7 @@
   display: inline-block;
   font-size: 6.2rem;
   font-weight: 500;
-  color: rgba(119, 119, 119, 0.3);
+  color: #0a3c2d77;
 }
 .how-text-header {
   font-size: 3rem;
@@ -154,7 +154,7 @@
 .how-img-box:before {
   content: "";
   padding: 17rem;
-  background-color: #79dfc1;
+  background-color: #a6e9d5;
   border-radius: 50%;
   position: absolute;
   left: 50%;
@@ -166,7 +166,7 @@
 .how-img-box:after {
   content: "";
   padding: 14rem;
-  background-color:#4dd4ac;
+  background-color: #90e4cb;
   border-radius: 50%;
   position: absolute;
   left: 50%;
@@ -178,4 +178,227 @@
 .how-text-text {
   font-size: 2rem;
   line-height: 1.5;
+}
+/******************************/
+/* MEALS */
+/******************************/
+.meal-section {
+  padding: 9.6rem 0;
+  color:#333;
+  border-top:1px solid #d2f4ea;
+}
+
+.meal-title {
+  text-align: center;
+}
+
+.meal-box-all {
+  gap: 6.4rem;
+}
+.meal-box{
+box-shadow: 0 1.2rem 2.4rem rgba(0, 0, 0, 0.158);
+border-radius: 11px;
+transition: all 0.4s;
+}
+
+.meal-box:hover {
+transform: translateY(-1.3rem);
+}
+
+.meal-img{
+  display: inline-block;
+width: 100%;
+border-top-left-radius: 11px;
+border-top-right-radius: 11px;
+}
+
+.meal-type {
+background-color: #51cf66;
+border-radius: 9px;
+margin-left: 1rem;
+text-transform:uppercase;
+display: inline-block;
+font-weight: 500;
+padding: 0.6rem;
+color: #fff;
+}
+
+.meal-texts {
+  padding: 3rem;
+}
+.meal-name {
+font-size: 3rem;
+}
+
+.meal-attributes{
+font-size: 3rem;
+list-style: none;
+gap: 2rem;
+}
+
+.diet-icon {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #1aa179;
+
+}
+
+.meal-attributes span {
+  font-size: inherit;
+  font-weight: 600;
+
+}
+
+.diet-list {
+  list-style: none;
+  font-size: 5.2rem;}
+
+.diet-list li {
+display: flex;
+align-items: center;
+gap: 2rem;
+}
+
+
+
+.diet-title {
+  font-size: 3.6rem;
+  font-weight: 600;
+  margin-bottom: 2.4rem;
+}
+
+/******************************/
+/* TESTIMONIALS */
+/******************************/
+
+.testi-section {
+  background-color: #d2f4ea;
+  display: grid;
+  grid-template-columns: 55fr 45fr;
+  align-items: center;
+}
+
+.testi-customers-all {
+  gap: 6rem;
+}
+
+.testi-box{
+  padding: 8rem;
+
+}
+.testi-title {
+  text-align: left;
+}
+.customer-img {
+  border-radius: 50%;
+  width: 7.4rem;
+}
+
+.customer-text{
+  font-size: 2rem;
+  line-height: 1.5;
+}
+.customer-name{
+  font-size: 1.8rem;
+}
+
+.image-gallery {
+  gap: 2rem;
+  padding: 2rem;
+
+}
+
+.image-gallery figure {
+  overflow: hidden;
+}
+
+.gallery-img {
+  width: 100%;
+  display: block;
+  transition: all 0.3s;
+
+}
+
+.gallery-img:hover {
+transform: scale(1.1);
+}
+
+/******************************/
+/* pricing */
+/******************************/
+.pricing-plans {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+ gap: 6rem;
+}
+
+
+
+
+
+.pricing-box-1 {
+  background-color: #1aa179;
+/* text-align: center; */
+justify-self: end;
+display: flex;
+flex-direction: column;
+gap: 3rem;
+padding: 3rem 2.4rem;
+border-radius: 11px;
+text-align: center;
+}
+
+.pricing-box-2 {
+background-color: #a6e9d5;
+justify-self: start;
+display: flex;
+flex-direction: column;
+gap: 3rem;
+padding: 3rem 2.4rem;
+border-radius: 11px;
+}
+
+.pricing-plan {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.pricing-price {
+   font-size: 3.6rem;
+   font-weight: 600;   
+}
+.pricing-per-day {
+  font-size: 2rem;
+}
+
+
+.pricing-list {
+display: flex;
+flex-direction: column;
+
+align-items: flex-start;
+
+gap: 2.4rem;
+list-style: none;
+font-size: 2.4rem;
+}
+
+.pricing-list li {
+  font-size: 2.4rem;
+}
+
+.test {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  background-color: #1aa179;
+  padding: 10rem;
+  
+}
+
+.test2  {
+  color: #fff;
+  background-color: #333;
+  grid-column: 3/4;
+  grid-row: -2/-3;
 }
