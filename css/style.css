@@ -525,3 +525,89 @@ form {
   align-self: end;
   justify-self: end;
 }
+
+
+/******************************/
+/* FOOTER */
+/******************************/
+.footer{
+  border-top: 1px solid #e9faf5
+}
+.footer-all {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+  gap: 3rem;
+}
+.social-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  color: #777;
+}
+
+.footer-social {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+
+}
+
+.copyright {
+  font-size: 1.4rem;
+  margin-top: auto;
+  color: #777;
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  gap:3rem;
+}
+.footer-heading {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #444;
+}
+.footer-list {
+  list-style: none;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.footer-list a:link,.footer-list a:visited {
+font-size: 1.6rem;
+text-decoration: none;
+color: #777;
+}
+.footer-list a:hover,.footer-list a:active {
+  color: #333;
+}
+
+.footer-box {
+  display: flex;
+  flex-direction: column ;
+  gap:3rem;
+}
+
+.address p {
+  font-size: 2rem;
+  display: inline-block;
+  margin-bottom: 1.8rem;
+  line-height: 1.2;
+  color: #777;
+}
+
+.contact a:link,.contact a:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.8rem;
+color: #777;
+transition: all 0.3s;
+margin-top: auto;
+}
+
+.contact a:hover,.contact a:active {
+  color: #333;
+
+} 
