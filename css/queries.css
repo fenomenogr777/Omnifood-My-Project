@@ -40,7 +40,7 @@
     align-items: flex-start;
   }
   .testi-box {
-    padding: 2rem;
+    padding: 10rem;
   }
   .cta-section {
     padding: 9.6rem 1rem;
@@ -113,9 +113,9 @@
   .meal-box-all {
     grid-template-columns: 1fr;
   }
-.meal-type {
-  font-size: 2rem;
-}
+  .meal-type {
+    font-size: 2rem;
+  }
   .meal-texts p {
     font-size: 5rem;
   }
@@ -134,11 +134,15 @@
     grid-template-columns: 1fr;
   }
 
+  .pricing-plans {
+    display: flex;
+    flex-direction: column;
+  }
+  .pricing-box-1 {
+  }
+
   .image-gallery {
     grid-template-columns: repeat(4, 1fr);
-  }
-  .testi-box {
-    padding: 4rem;
   }
 
   .cta-box-all {
