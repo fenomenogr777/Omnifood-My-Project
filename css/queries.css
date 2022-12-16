@@ -75,14 +75,14 @@
     margin-top: 6rem;
     display: grid;
   }
-.hero-img-box {
-  justify-self: center;
-  margin-bottom: 4rem;
-}
+  .hero-img-box {
+    justify-self: center;
+    margin-bottom: 4rem;
+  }
 
-.hero-customer {
- padding-top:4.5rem ;
-}
+  .hero-customer {
+    padding-top: 4.5rem;
+  }
 
   .hero-section {
     display: grid;
@@ -92,6 +92,17 @@
     padding: 1rem 3rem 2rem 3rem;
   }
 
+  .how-img-box:after {
+    padding: 13rem;
+  }
+
+  .how-img-box:before {
+    padding: 15rem;
+  }
+
+  .how-section {
+    padding: 9.6rem 2rem;
+  }
   .how-box {
     row-gap: 10rem;
   }
