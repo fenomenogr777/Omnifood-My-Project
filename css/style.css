@@ -45,18 +45,16 @@
   font-weight: 500;
 }
 
-.btn-log:link,
-.btn-log:visited {
-  background-color: #20c997;
-  padding: 1rem 2rem;
-  border-radius: 11px;
-  color: #fff;
-  transition: all 0.3s;
+.btn-log:link,.btn-log:visited {
+  background-color:#20c997;
+padding: 1rem 2rem;
+border-radius: 11px;
+color: #fff;
+transition: all 0.3s;
 }
 
-.btn-log:hover,
-.btn-log:active {
-  background-color: #1aa179;
+.btn-log:hover,.btn-log:active{
+ background-color:   #1aa179;
 }
 
 /******************************/
@@ -388,7 +386,7 @@
 
 .pricing-box-2:hover:after {
   background-color: #fa5252;
-  color: #ffe066;
+  color:#ffe066 ;
 }
 
 .pricing-plan {
@@ -537,16 +535,20 @@ form {
   grid-template-rows: 1fr;
 }
 
-.btn-form {
+.btn-form{
   font-size: 2rem;
+  font-weight: 600;
   border: 1px solid transparent;
   border: none;
   display: inline-block;
-  padding: 1rem;
+  padding: 1.2rem 1rem;
   width: 100%;
   border-radius: 11px;
   align-self: end;
   justify-self: end;
+  background-color: rgb(5, 5, 5);
+  color: #fff;
+  cursor: pointer;
 }
 
 /******************************/

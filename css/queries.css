@@ -1,0 +1,55 @@
+@media (max-width: 75em) {
+  * {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 59em) {
+  * {
+    font-size: 50%;
+  }
+
+  .image-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .her-title {
+    font-size: 5rem;
+  }
+
+  .header {
+    padding: 0;
+    gap: 1rem;
+  }
+
+  .view-100 {
+    height: auto;
+    padding: 0 2rem 2rem 2rem;
+  }
+}
+
+@media (max-width: 51em) {
+  * {
+    font-size: 45%;
+  }
+
+  .header {
+    flex-direction: column;
+  }
+  .hero-btn-space {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .testi-box {
+    padding: 2rem;
+  }
+  .cta-section {
+    padding: 9.6rem 1rem;
+  }
+  .cta-form-box {
+    padding: 2rem;
+  }
+  .footer-all {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+}
