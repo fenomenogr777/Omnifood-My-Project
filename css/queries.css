@@ -70,10 +70,25 @@
     padding-top: 6rem;
   }
   .hero-img-box {
+    width: 70%;
+    grid-row: 1/2;
     margin-top: 6rem;
+    display: grid;
   }
+.hero-img-box {
+  justify-self: center;
+  margin-bottom: 4rem;
+}
+
+.hero-customer {
+ padding-top:4.5rem ;
+}
+
   .hero-section {
-    display: inline-block;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+
     padding: 1rem 3rem 2rem 3rem;
   }
 
