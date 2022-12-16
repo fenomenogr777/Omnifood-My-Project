@@ -23,11 +23,12 @@
 .header-nav-list {
   list-style: none;
   display: flex;
+  align-items: center;
   gap: 4.8rem;
 }
 
-.header-nav-list a:link,
-.header-nav-list a:visited {
+.btn-nav:link,
+.btn-nav:visited {
   display: inline-block;
   text-decoration: none;
   font-size: 2rem;
@@ -35,13 +36,27 @@
   font-weight: 500;
   transition: all 0.3s;
 }
-.header-nav-list a:hover,
-.header-nav-list a:active {
+.btn-nav:hover,
+.btn-nav:active {
   display: inline-block;
   text-decoration: none;
   font-size: 2rem;
   color: #1aa179;
   font-weight: 500;
+}
+
+.btn-log:link,
+.btn-log:visited {
+  background-color: #20c997;
+  padding: 1rem 2rem;
+  border-radius: 11px;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.btn-log:hover,
+.btn-log:active {
+  background-color: #1aa179;
 }
 
 /******************************/
@@ -327,7 +342,7 @@
 }
 
 .pricing-box-1 {
-  box-shadow: 0 1.2rem 2.4rem hsla(162, 72%, 37%, 0.301);
+  /* box-shadow: 0 1.2rem 2.4rem hsla(162, 72%, 37%, 0.301); */
   justify-self: end;
   display: flex;
   flex-direction: column;
@@ -351,9 +366,12 @@
   text-align: center;
   position: relative;
   overflow: hidden;
-  transition: all 0.3s;
+  transition: all 0.4s;
 }
 
+.pricing-box-2:hover {
+  background-color: #a6e9d5;
+}
 .pricing-box-2:after {
   content: "sale";
   color: rgb(255, 255, 255);
@@ -366,6 +384,11 @@
   right: -5rem;
   top: 3.5rem;
   transform: rotate(45deg);
+}
+
+.pricing-box-2:hover:after {
+  background-color: #fa5252;
+  color: #ffe066;
 }
 
 .pricing-plan {
