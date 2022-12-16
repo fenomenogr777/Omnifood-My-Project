@@ -145,6 +145,9 @@
     grid-template-columns: repeat(4, 1fr);
   }
 
+  .features {
+    grid-template-columns: repeat(2, 1fr);
+  }
   .cta-box-all {
     grid-template-columns: 1fr;
   }
