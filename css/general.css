@@ -144,3 +144,8 @@ font-weight: 500;
   width: 4.8rem;
   height: 4.8rem;
 }
+
+.btn.btn-hero2{
+  background-color: #fff;
+  color: #333;
+}
