@@ -645,7 +645,6 @@ form {
 /* SPONSORED */
 /******************************/
 
-.sponsored-section{}
 .sponsored-heading{
   text-align: center;
 }
@@ -656,7 +655,6 @@ justify-content: space-around;
 
 }
 .sponsored-img{
-  /* display: inline-block; */
 width: 14rem;
 height: auto;
 filter: brightness(0);
