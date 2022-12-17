@@ -45,16 +45,18 @@
   font-weight: 500;
 }
 
-.btn-log:link,.btn-log:visited {
-  background-color:#20c997;
-padding: 1rem 2rem;
-border-radius: 11px;
-color: #fff;
-transition: all 0.3s;
+.btn-log:link,
+.btn-log:visited {
+  background-color: #20c997;
+  padding: 1rem 2rem;
+  border-radius: 11px;
+  color: #fff;
+  transition: all 0.3s;
 }
 
-.btn-log:hover,.btn-log:active{
- background-color:   #1aa179;
+.btn-log:hover,
+.btn-log:active {
+  background-color: #1aa179;
 }
 
 /******************************/
@@ -386,7 +388,7 @@ transition: all 0.3s;
 
 .pricing-box-2:hover:after {
   background-color: #fa5252;
-  color:#ffe066 ;
+  color: #ffe066;
 }
 
 .pricing-plan {
@@ -535,7 +537,7 @@ form {
   grid-template-rows: 1fr;
 }
 
-.btn-form{
+.btn-form {
   font-size: 2rem;
   font-weight: 600;
   border: 1px solid transparent;
@@ -648,28 +650,25 @@ form {
   opacity: 60%;
 }
 
-.sponsored-container {
-  padding-bottom: 0rem !important;
-}
-.heading-sponsored{
+.heading-sponsored {
   margin-bottom: 4rem;
 }
 
-.sponsored-title{
+.sponsored-title {
   text-align: center;
 }
 
 .sponsored-box {
   display: flex;
-gap: 0rem;
-align-items: center;
+  gap: 0rem;
+  align-items: center;
 }
 
 .sponsored-logo {
-  width: 100%;
+  width: 50%;
+  height: auto;
   filter: grayscale(100%);
   filter: brightness(0);
   opacity: 60%;
-  transform: scale(0.5);
+  transform: scale(0.6);
 }
-
