@@ -149,3 +149,11 @@ font-weight: 500;
   background-color: #fff;
   color: #333;
 }
+
+.sticky {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #d2f4ea;
+}
