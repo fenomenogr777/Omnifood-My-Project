@@ -118,8 +118,8 @@
 
 .btn-hero2:link,
 .btn-hero2:visited {
-  background-color: #f7faf9 !important;
-  color: #333 !important;
+  /* background-color: #f7faf9 !important; */
+  /* color: #333 !important; */
   border: 1px solid transparent;
 }
 .btn-hero2:hover,
@@ -644,31 +644,21 @@ form {
 /******************************/
 /* SPONSORED */
 /******************************/
-.sponsored-section {
-  filter: grayscale(100%);
-  filter: brightness(0);
-  opacity: 60%;
-}
 
-.heading-sponsored {
-  margin-bottom: 4rem;
-}
-
-.sponsored-title {
+.sponsored-section{}
+.sponsored-heading{
   text-align: center;
 }
-
-.sponsored-box {
+.sponsored-imgs{
+  margin-top: 5rem;
   display: flex;
-  gap: 0rem;
-  align-items: center;
-}
+justify-content: space-around;
 
-.sponsored-logo {
-  width: 50%;
-  height: auto;
-  filter: grayscale(100%);
-  filter: brightness(0);
-  opacity: 60%;
-  transform: scale(0.6);
+}
+.sponsored-img{
+  /* display: inline-block; */
+width: 14rem;
+height: auto;
+filter: brightness(0);
+opacity: 70%;
 }
