@@ -8,11 +8,33 @@ const btnNavEl = document.querySelector(".mobile-menu");
 const headerEl = document.querySelector(".header");
 
 btnNavEl.addEventListener("click", function () {
-  headerEl.classList.toggle("open-nav")
- 
+  headerEl.classList.toggle("open-nav");
 });
 
+// menu bar sticky
+const sectionHeroEl = document.querySelector(".view-100");
 
+const obs = new IntersectionObserver(
+  function (entries) {
+    const ent = entries[0];
+    console.log(ent);
+
+    if (ent.isIntersecting === false) {
+      document.body.classList.add("sticky");
+    }
+
+    if (ent.isIntersecting === true) {
+      document.body.classList.remove("sticky");
+    }
+  },
+  {
+    // In the viewport
+    root: null,
+    threshold: 0,
+    rootMargin: "-80px",
+  }
+);
+obs.observe(sectionHeroEl);
 
 ///////////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions
