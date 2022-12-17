@@ -638,3 +638,38 @@ form {
 .contact a:active {
   color: #333;
 }
+
+/******************************/
+/* SPONSORED */
+/******************************/
+.sponsored-section {
+  filter: grayscale(100%);
+  filter: brightness(0);
+  opacity: 60%;
+}
+
+.sponsored-container {
+  padding-bottom: 0rem !important;
+}
+.heading-sponsored{
+  margin-bottom: 4rem;
+}
+
+.sponsored-title{
+  text-align: center;
+}
+
+.sponsored-box {
+  display: flex;
+gap: 0rem;
+align-items: center;
+}
+
+.sponsored-logo {
+  width: 100%;
+  filter: grayscale(100%);
+  filter: brightness(0);
+  opacity: 60%;
+  transform: scale(0.5);
+}
+
